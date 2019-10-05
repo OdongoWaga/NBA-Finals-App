@@ -10,7 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        
+        VStack {
+        Image("gs").resizable().frame(height: 250)
+            
+        Image("steph")
+        Text("Steph Curry")
+            Spacer()
+        }.edgesIgnoringSafeArea(.top)
+        
     }
 }
 
