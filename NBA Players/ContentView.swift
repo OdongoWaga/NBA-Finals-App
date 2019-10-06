@@ -25,6 +25,11 @@ struct ContentView: View {
         Text("Steph Curry")
             .font(.system(size:50))
             .fontWeight(.bold)
+            
+      StatText(statName: "Age", statValue: "31")
+      StatText(statName: "Height", statValue: "6'3\" ")
+      StatText(statName: "Weight", statValue: "190lbs")
+            
             Spacer()
         }.edgesIgnoringSafeArea(.top)
         
